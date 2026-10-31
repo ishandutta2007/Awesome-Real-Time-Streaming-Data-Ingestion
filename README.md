@@ -1,24 +1,41 @@
-# Awesome Real-Time Streaming Data Ingestion [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Real-Time Streaming Data Ingestion Banner" width="100%" />
+</p>
 
-> A curated list of leading SaaS products, continuous ingestion platforms, Change Data Capture (CDC) systems, and open-source real-time streaming data ingestion frameworks.
+# ⚡ Awesome Real-Time Streaming Data Ingestion
 
-Streaming data ingestion systems capture, transport, and load high-velocity event streams, transaction logs (CDC), telemetry, and time-series data into warehouses, data lakes, and real-time analytical engines with sub-second latencies and strict ordering or delivery guarantees.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion?style=flat-square&logo=github" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion?style=flat-square&logo=github" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion?style=flat-square" alt="GitHub issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🚀 A curated list of leading enterprise SaaS products, continuous ingestion engines, Change Data Capture (CDC) systems, and high-performance open-source real-time streaming data ingestion frameworks.
+
+Streaming data ingestion systems continuously capture, transport, and load high-velocity event streams, transaction logs (CDC), telemetry, and time-series data into warehouses, data lakes, and real-time analytical engines with sub-second latencies and strict ordering or delivery guarantees.
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Managed Cloud Platforms](#saas--managed-cloud-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Top Projects Ranked by Community Stars](#top-projects-ranked-by-community-stars)
-  - [Architectural Roles & Ecosystem Breakdown](#architectural-roles--ecosystem-breakdown)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & License Notes](#disclaimer--license-notes)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Managed Cloud Platforms](#️-saas--managed-cloud-platforms)
+- [🐙 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Top Projects Ranked by Community Stars](#-top-projects-ranked-by-community-stars)
+  - [🏗️ Architectural Roles & Ecosystem Breakdown](#️-architectural-roles--ecosystem-breakdown)
+- [📈 Star History](#star-history)
+- [💖 Support & Community](#-support--community)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & License Notes](#️-disclaimer--license-notes)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global real-time streaming data ingestion and event stream processing (ESP) market is estimated at **$53.2 billion in 2026** (with the broader streaming analytics and data ingestion pipeline market projected to exceed **$440 billion by 2035** at a CAGR of ~26.6%). 
 
@@ -26,11 +43,11 @@ The sector exhibits **moderate concentration with a bifurcated dynamic**: founda
 
 ---
 
-## SaaS & Managed Cloud Platforms
+## ☁️ SaaS & Managed Cloud Platforms
 
 The table below lists top SaaS and managed streaming ingestion platforms, sorted in descending order by company scale (market capitalization, parent enterprise valuation, or private market valuation).
 
-| Platform | Company Valuation / Revenue Scale | Starting Tier Pricing | Free Tier Limits / Free Trial Specifications | Primary Ingestion Focus |
+| 🏢 Platform | 💰 Company Valuation / Revenue Scale | 🏷️ Starting Tier Pricing | 🎁 Free Tier Limits / Free Trial Specifications | 🎯 Primary Ingestion Focus |
 |:---|:---|:---|:---|:---|
 | **[Microsoft Azure Event Hubs](https://azure.microsoft.com/en-us/products/event-hubs)** | **~$3.1 Trillion** (Market Cap) | **$0.015/hour** per Throughput Unit + **$0.028 per million events** (Basic tier) | **Free evaluation:** Azure $200 free credit valid for 30 days; select lightweight ingress services free within 12 months | Enterprise Kafka-compatible streaming pub/sub |
 | **[Amazon Kinesis Data Streams](https://aws.amazon.com/kinesis/)** | **~$2.2 Trillion** (Amazon Market Cap) | **$0.015/hour** per shard + **$0.014 per million** PUT units (Provisioned mode; On-Demand at **$0.04/shard-hour** + **$0.08/GB**) | **AWS Free Tier:** 1 million GET records/month via Kinesis Data Streams for the first 12 months | Fully managed partitioned sharded ingestion |
@@ -44,13 +61,13 @@ The table below lists top SaaS and managed streaming ingestion platforms, sorted
 
 ---
 
-## Open-Source GitHub Projects
+## 🐙 Open-Source GitHub Projects
 
-### Top Projects Ranked by Community Stars
+### ⭐ Top Projects Ranked by Community Stars
 
 The following table presents open-source streaming data ingestion, CDC, and event broker frameworks ranked by GitHub stargazers count in descending order. Each star badge links directly to the repository's stargazers page.
 
-| Project & Repo Link | GitHub Stars | Primary License | Description |
+| 📦 Project & Repo Link | ⭐ GitHub Stars | 📜 Primary License | 📝 Description |
 |:---|:---:|:---:|:---|
 | **[Apache Kafka](https://github.com/apache/kafka)** | [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Apache-2.0 | De facto standard distributed event streaming platform and partitioned append-only commit log (KRaft-only architecture in Kafka 4.x). |
 | **[Apache Flink](https://github.com/apache/flink)** | [![GitHub stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers) | Apache-2.0 | High-throughput, low-latency stateful stream processing framework providing event-driven continuous ingestion and exact-once semantics. |
@@ -71,44 +88,67 @@ The following table presents open-source streaming data ingestion, CDC, and even
 
 ---
 
-### Architectural Roles & Ecosystem Breakdown
+### 🏗️ Architectural Roles & Ecosystem Breakdown
 
-- **Distributed Event Transport (Append-Only Logs):**
+- **⚡ Distributed Event Transport (Append-Only Logs):**
   - **[Apache Kafka](https://github.com/apache/kafka):** The enterprise benchmark for durable, partitioned, and replayable event logs. Kafka 4.x eliminates ZooKeeper completely in favor of KRaft metadata quorum.
   - **[Apache Pulsar](https://github.com/apache/pulsar):** Cloud-native tiered storage separating stateless brokers from stateful BookKeeper storage nodes.
   - **[Redpanda](https://github.com/redpanda-data/redpanda):** Engineered in C++ with thread-per-core hardware utilization, providing Kafka API compatibility with single-digit millisecond latency.
 
-- **Change Data Capture (CDC):**
+- **🔄 Change Data Capture (CDC):**
   - **[Debezium](https://github.com/debezium/debezium):** Connects to MySQL, PostgreSQL, Oracle, SQL Server, and MongoDB transaction logs to stream exact change events.
   - **[Flink CDC](https://github.com/apache/flink-cdc):** Enables lock-free parallel historical snapshots and continuous CDC binlog stream consumption directly within Apache Flink.
   - **[Apache SeaTunnel](https://github.com/apache/seatunnel):** Streamlines CDC sync pipelines with built-in connector discovery and distributed execution.
 
-- **Unified Streaming Ingest & Serve:**
+- **🎯 Unified Streaming Ingest & Serve:**
   - **[RisingWave](https://github.com/risingwavelabs/risingwave):** Eliminates complex multi-hop pipelines by fusing ingestion, stateful stream processing, and serving into a single Postgres-compatible streaming database.
   - **[Apache Pinot](https://github.com/apache/pinot):** Consumes streaming events directly into columnar segments for sub-second user-facing dashboards and real-time metrics.
 
-- **Edge, Agents & Lightweight Stream Pipelines:**
+- **🛰️ Edge, Agents & Lightweight Stream Pipelines:**
   - **[Redpanda Connect](https://github.com/redpanda-data/connect):** Zero-dependency single-binary stream processor for transforming and routing streams between protocols.
   - **[Vector](https://github.com/vectordotdev/vector) & [Fluent Bit](https://github.com/fluent/fluent-bit):** Ultra-efficient agents deployed on edge nodes or Kubernetes pods to ingest gigabytes of logs and telemetry per second.
   - **[Bytewax](https://github.com/bytewax/bytewax):** Streamlines real-time feature extraction for AI/ML pipelines using clean Python APIs.
 
 ---
 
-## How to Contribute
-
-1. Fork this repository.
-2. Add your SaaS product or open-source repository to `README.md` following the existing format.
-3. For SaaS platforms: include verified starting tier pricing, free tier/trial limits, and company scale metrics.
-4. For Open-Source repositories: ensure you include the star badge linking to the stargazers page:
-   ```markdown
-   [![GitHub stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)
-   ```
-5. Submit a pull request with a concise description of the addition.
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Real-Time-Streaming-Data-Ingestion&yype=date&legend=top-left)
 
 ---
 
-## Disclaimer & License Notes
+## 💖 Support & Community
 
-- This repository is a community-maintained curated index. Company market capitalizations, private valuations, and pricing tiers reflect publicly available figures as of 2026.
-- Database CDC connectors require continuous log-tailing access to source engines (WAL, binlog, redo logs); ensure credentials adhere to least-privilege principles.
-- Software licenses vary across projects (e.g., Apache 2.0, MPL 2.0, BSL 1.1, and Elv2). Check individual project licenses prior to enterprise deployment.
+Thank you so much for exploring and supporting this curated resource! 🌟
+
+If you find this repository valuable:
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork it** to create your own customized version or contribute upstream.
+- 📢 **Share it** with your colleagues, teammates, and data engineering community.
+- ☕ If you appreciate the curation and would like to support future maintenance, consider buying a coffee via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)!
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor%20Me-%E2%9D%A4-ff69b4?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 🤝 How to Contribute
+
+1. 🍴 Fork this repository.
+2. 📝 Add your SaaS product or open-source repository to `README.md` following the existing format.
+3. 💼 For SaaS platforms: include verified starting tier pricing, free tier/trial limits, and company scale metrics.
+4. ⭐ For Open-Source repositories: ensure you include the star badge linking to the stargazers page:
+   ```markdown
+   [![GitHub stars](https://img.shields.io/github/stars/<owner>/<repo>?style=social&color=white)](https://github.com/<owner>/<repo>/stargazers)
+   ```
+5. 🚀 Submit a pull request with a concise description of the addition.
+
+---
+
+## ⚖️ Disclaimer & License Notes
+
+- 📌 This repository is a community-maintained curated index. Company market capitalizations, private valuations, and pricing tiers reflect publicly available figures as of 2026.
+- 🔐 Database CDC connectors require continuous log-tailing access to source engines (WAL, binlog, redo logs); ensure credentials adhere to least-privilege principles.
+- 📄 Software licenses vary across projects (e.g., Apache 2.0, MPL 2.0, BSL 1.1, and Elv2). Check individual project licenses prior to enterprise deployment.
